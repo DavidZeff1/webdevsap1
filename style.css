@@ -1,0 +1,28 @@
+/*<!--David Zeff 207875147-->*/
+/*<!--Maha Elriati 208313197-->*/
+body{
+    background-color: cornsilk;
+}
+/*make content a flex box in orde to align all items to the center aswell as give the page responsiveness*/
+.content {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*give every input field a little styling and rounded shape*/
+input{
+    border-radius:5px;
+    border:1px solid silver;
+}
+/*add some margin between divs*/
+div{
+    margin: 10px;
+}
+/*orange color when hover*/
+input:hover{
+    background-color: orange;
+}
+
+
